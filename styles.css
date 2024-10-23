@@ -1,0 +1,103 @@
+.form {
+    display: flex;
+    align-items: center;
+    padding-left: 29em;
+    padding-top: 9em;
+    padding-bottom: 5em;
+    margin-bottom: -2em;
+}
+
+.tex {
+    padding: 10px; /* حشوة داخل المربع والزر */
+    font-size: 16px; /* حجم الخط */
+    margin-right: 10px; /* مسافة بين المربع والزر */
+}
+
+.tex[type="text"] {
+    background-color: #E0DFFE;
+    color: #4E4B73;
+    width: 539px;
+    height: 42px;
+    border: rebeccapurple;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10em;
+    font-size: 35px;
+}
+
+
+.tex[type="submit"] {
+    background-color: #A896F6;
+    color: rgb(12, 12, 12);
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 3.5em;
+    width: 4em;
+    font-size: large;
+}
+.tex[type="submit"]:hover {
+    background-color: #7D71E6; /* لون خلفية الزر عند التمرير فوقه */
+}
+ol {
+    /* list-style-type: disc; استخدم نقاط قائمة عادية */
+    padding-right: 10em;
+    padding-top: 0em;
+    font-size: 3em;
+    text-emphasis-color: green;
+    text-align: right; /* محاذاة النص إلى اليمين */
+    direction: rtl; /* تعيين الاتجاه من اليمين لليسار */
+    border: #4CAF50;
+}
+
+div .divo{
+    padding: 5px 0; /* إضافة مسافة بين العناصر */
+    text-align: right; /* محاذاة النص إلى اليمين */
+    color: #000000;
+    font-size: 3em;
+    background-color:#D3D3D3 ;
+    border-radius: 76px;
+    align-items:center;
+    cursor: pointer;
+    width: 13em;
+    transform: translateX(-7em);
+    transition: transform 0.3s ease;
+    padding-right: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -0.7em;
+}
+
+div .divo::marker {
+    font-weight: bold; /* جعل النقاط أو الأرقام بارزة */
+}
+
+
+
+body{
+    background-color: rgb(22, 21, 42);
+    background-image: url(background.webp);
+    background-attachment: scroll;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0; 
+    direction: rtl; /* الاتجاه من اليمين إلى اليسار */
+     text-align: right; /* محاذاة النص لليمين */
+  
+}
+.miso {
+    width: 5em;
+    height: 4em;
+    border-radius: 20px;
+    background-color: #B3B1CC;
+    font-weight: bold;
+    transform: translateX(-68em) translateY(-26px);
+}
+.miso:hover {
+    background-color:#B0A4F0;
+    box-shadow: #1c156c;
+}
